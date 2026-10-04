@@ -1,0 +1,15 @@
+{
+  "name": "@kamtugeza/gummy",
+  "version": "0.1.0",
+  "author": "Oleksii Novikov <hello@theoleksii.me>",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.9.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.9.0",
+  "type": "module"
+}
