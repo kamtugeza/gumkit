@@ -1,8 +1,14 @@
 {
-  "name": "@kamtugeza/gummy",
+  "name": "@gumkit",
   "version": "0.1.0",
+  "private": true,
   "author": "Oleksii Novikov <hello@theoleksii.me>",
   "license": "MIT",
+  "scripts": {
+    "build": "pnpm --recursive --if-present run build",
+    "test": "pnpm --recursive --parallel --if-present run test",
+    "test:ci": "pnpm --recursive --if-present run test:ci"
+  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
